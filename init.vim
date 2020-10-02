@@ -12,6 +12,7 @@ set number relativenumber
 set shiftwidth=4
 set tabstop=4
 set expandtab
+set colorcolumn=81
 
 nnoremap <Space> :nohlsearch<Return>:<Backspace>
 nnoremap gb :ls<Return>:b<Space>
