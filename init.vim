@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugins')
 
 Plug 'pbondoer/vim-42header'
 Plug 'airblade/vim-gitgutter'
+Plug   'Vimjas/vim-python-pep8-indent'
 
 call plug#end()
 
