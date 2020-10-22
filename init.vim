@@ -17,3 +17,5 @@ set colorcolumn=81
 
 nnoremap <Space> :nohlsearch<Return>:<Backspace>
 nnoremap gb :ls<Return>:b<Space>
+
+call s42#AutoConf()
