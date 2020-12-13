@@ -6,8 +6,8 @@ Plug 'Vimjas/vim-python-pep8-indent'
 
 call plug#end()
 
-let $MAIL="trcottam@student.s19.be"
-let $USER="trcottam"
+let $MAIL='trcottam@student.s19.be'
+let $USER='trcottam'
 
 set colorcolumn=81
 set expandtab
