@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugins')
 Plug 'airblade/vim-gitgutter'
 Plug 'pbondoer/vim-42header'
 Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 
