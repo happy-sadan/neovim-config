@@ -10,7 +10,7 @@ call plug#end()
 let $MAIL='trcottam@student.s19.be'
 let $USER='trcottam'
 
-set colorcolumn=81
+set colorcolumn=80
 set expandtab
 set number
 set relativenumber
