@@ -1,23 +1,23 @@
-call plug#begin('~/.vim/plugins')
+cal plug#begin('~/.vim/plugins')
 
 Plug 'airblade/vim-gitgutter'
 Plug 'pbondoer/vim-42header'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'plasticboy/vim-markdown'
 
-call plug#end()
+cal plug#end()
 
 let $MAIL='trcottam@student.s19.be'
 let $USER='trcottam'
 
-set colorcolumn=80
-set expandtab
-set number
-set relativenumber
-set shiftwidth=4
-set tabstop=4
+set cc=80
+set et
+set nu
+set rnu
+set sw=4
+set ts=4
 
-nnoremap <Space> :nohlsearch<Return>:<Backspace>
-nnoremap gb :ls<Return>:b<Space>
+nn <Space> :noh<CR>:<BS>
+nn gb :ls<CR>:b<Space>
 
-call s42#AutoConf()
+cal s42#AutoConf()

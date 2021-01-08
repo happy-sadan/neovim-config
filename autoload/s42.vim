@@ -1,8 +1,8 @@
-function s42#AutoConf()
-    autocmd BufRead,BufNewFile $S42_FILE_PATTERN call s42#ConfBuffer()
-endfunction
+fu s42#AutoConf()
+    au BufRead,BufNewFile $S42_FILE_PATTERN cal s42#ConfBuffer()
+endf
 
-function s42#ConfBuffer()
-    setlocal noexpandtab
+fu s42#ConfBuffer()
+    setl noexpandtab
     Stdheader
-endfunction
+endf
