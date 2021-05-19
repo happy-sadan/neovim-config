@@ -5,6 +5,7 @@ Plug 'pbondoer/vim-42header'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-airline/vim-airline'
+Plug 'unblevable/quick-scope'
 
 cal plug#end()
 
