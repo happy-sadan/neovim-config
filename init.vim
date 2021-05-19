@@ -4,6 +4,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'pbondoer/vim-42header'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'plasticboy/vim-markdown'
+Plug 'vim-airline/vim-airline'
 
 cal plug#end()
 
